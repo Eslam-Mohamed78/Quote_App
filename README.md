@@ -8,3 +8,5 @@ Technologies used : HTML5 / CSS3 / BootStrap / JS
 Quotes Website : https://www.goodreads.com/quotes
 
 Original Assignment : https://js-beginners.github.io/quote-of-the-day-project/
+
+live-demo : https://eslam-mohamed78.github.io/Quote_App/
