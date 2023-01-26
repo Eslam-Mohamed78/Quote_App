@@ -1,0 +1,44 @@
+body {
+  background-color: #5372f0;
+}
+
+.caption h1 {
+  font-family: "Spirax", cursive;
+}
+.quote-area i:first-child {
+  margin: 3px 10px 0 0;
+}
+.quote-area i:last-child {
+  margin: 0 0 4px 10px;
+}
+.quote-area p {
+  font-weight: bold;
+  font-size: 20px;
+  color: #4e4e4e;
+}
+.caption {
+  width: 500px;
+}
+.caption ul li:hover span {
+  cursor: pointer;
+  background-color: #5372f0;
+  color: white;
+}
+.caption ul li span {
+  color: #5372f0;
+  border: 1px solid #5372f0;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.caption .foot {
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}

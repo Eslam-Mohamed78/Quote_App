@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spirax&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="shortcut icon" href="./images/quote.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center vh-100">
+        <div class="caption bg-white p-4 rounded text-center">
+          <h1 class="mb-4">Quote of the Day</h1>
+          <div class="quote-area d-flex justify-content-center">
+            <i class="fa-sharp fa-solid fa-quote-left"></i>
+            <p id="quote" class="mb-0"></p>
+            <i
+              class="fa-sharp fa-solid fa-quote-right d-flex align-items-end"
+            ></i>
+          </div>
+          <div id="author" class="text-end my-4 fst-italic"></div>
+          <div class="foot d-flex justify-content-between pt-4">
+            <ul class="d-flex justify-content-between list-unstyled">
+              <li>
+                <span><i class="fa-solid fa-volume-high"></i></span>
+              </li>
+              <li class="mx-3">
+                <span><i class="fa-regular fa-copy"></i></span>
+              </li>
+              <li>
+                <span><i class="fa-brands fa-twitter"></i></span>
+              </li>
+            </ul>
+            <button
+              type="button"
+              class="btn btn-primary rounded-5 px-4"
+              onclick="getNewQuote()"
+            >
+              New Quote
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
